@@ -13,15 +13,23 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
+import nodejs from "./tech/nodejs.png";
+import typescript from "./tech/typescript.png";
+import mongodb from "./tech/mongodb.png";
 import cplusplus from "./tech/c++.png";
 import python from "./tech/python.png";
 import bootstrap from "./tech/bootstrap.png";
+import tailwind from "./tech/tailwind.png";
+import materialui from "./tech/materialui.png";
 import sql from "./tech/sql.png"
 
+import flipkart from "./company/flipkart.png";
+import flairlabs from "./company/flair_labs.png";
 import amar from "./company/amar.png"
 import sustainable from "./company/sustainable.png";
 import learnbasics from "./company/learnbasics.png";
 
+import socialmedia from "./socialmedia.png";
 import memoryGame from "./memoryGame.jpg";
 import tourAndTravel from "./tourAndTravel.jpg";
 import transport from "./transport.jpg";
@@ -41,13 +49,21 @@ export {
     html,
     python,
     bootstrap,
+    tailwind,
+    materialui,
     sql,
     javascript,
     reactjs,
+    nodejs,
+    typescript,
+    mongodb,
+    flipkart,
+    flairlabs,
     amar,
     sustainable,
     learnbasics,
     cplusplus,
+    socialmedia,
     memoryGame,
     tourAndTravel,
     transport

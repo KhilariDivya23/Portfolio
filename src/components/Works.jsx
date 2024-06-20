@@ -1,4 +1,3 @@
-import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 import { styles } from "../style.js";
@@ -9,7 +8,7 @@ import { fadeIn, textVariant } from "../utils/motion.js";
 import {VerticalTimeline} from "react-vertical-timeline-component";
 
 
-const ProjectCard = ({ index, name, description, tags, image, source_code_link, live_link }) => {
+const ProjectCard = ({ index, name, description, tags, image, source_code_links, live_link }) => {
     return (
         <motion.div
             variants={fadeIn("up", "spring", index * 0.5, 0.75)}
@@ -25,13 +24,17 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
                 <div className="relative w-full h-[230px]">
                     <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
                     <div className="absolute gap-2 inset-0 flex justify-end m-3 card-img_hover">
-                        <div
-                            onClick={() => window.open(source_code_link, "_blank")}
-                            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-                        >
-                            <img src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
-                        </div>
-                        
+                        {
+                            source_code_links.map((source_code_link, idx) =>
+                                <div
+                                    key={idx}
+                                    onClick={() => window.open(source_code_link, "_blank")}
+                                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                                >
+                                <img src={github} alt="github" className="w-1/2 h-1/2 object-contain"/>
+                            </div>
+                            )
+                        }
                         {  live_link !== "" &&
                             <div
                                 onClick={() => window.open(live_link, "_blank")}

@@ -7,14 +7,22 @@ import {
     html,
     css,
     reactjs,
+    nodejs,
+    typescript,
+    mongodb,
     python,
     bootstrap,
+    tailwind,
+    materialui,
     sql,
     git,
+    flipkart,
+    flairlabs,
     amar,
     sustainable,
     learnbasics,
     cplusplus,
+    socialmedia,
     memoryGame,
     tourAndTravel,
     transport
@@ -72,12 +80,28 @@ const technologies = [
         icon: reactjs,
     },
     {
+        name: "Node JS",
+        icon: nodejs,
+    },
+    {
+        name: "Typescript",
+        icon: typescript,
+    },
+    {
         name: "Git",
         icon: git,
     },
     {
         name: "Bootstrap",
         icon: bootstrap,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Materail Ui",
+        icon: materialui,
     },
     {
         name: "C++",
@@ -91,15 +115,40 @@ const technologies = [
         name: "SQL",
         icon: sql,
     },
+    {
+        name: "Mongo DB",
+        icon: mongodb,
+    },
     
 ];
 
 const experiences = [
     {
+        title: "Application Engineer - I",
+        company_name: "Flipkart",
+        icon: flipkart,
+        iconBg: "#E6DEDD",
+        date: "June 2024 - Present",
+        points: [
+            "Collaborating with senior developers to understand project requirements and deliver high-quality code."
+        ],
+    },
+    {
+        title: "Software Engineer Intern",
+        company_name: "Flair Labs",
+        icon: flairlabs,
+        iconBg: "#E6DEDD",
+        date: "Jan 2024 - May 2024",
+        points: [
+            "Identified and resolved bugs within the drag-and-drop website builder to enhance functionality and user experience.",
+            "Designed and implemented a feature to copy entire components, including their child components and associated properties."
+        ],
+    },
+    {
         title: "Project Trainee",
         company_name: "Amar Transport",
         icon: amar,
-        iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "March 2023 - May 2023",
         points: [
             "Developed frontend components and templates for billing and chalan documents using React, ensuring a user-friendly and responsive interface.",
@@ -123,7 +172,7 @@ const experiences = [
         title: "Python Developer Intern",
         company_name: "Learn Basics",
         icon: learnbasics,
-        iconBg: "#383E56",
+        iconBg: "#E6DEDD",
         date: "August 2022 - September 2022",
         points: [
             "Collaborated effectively within a dynamic three-person team to conceive, design, and create a versatile Daily Report Generator App.",
@@ -134,6 +183,35 @@ const experiences = [
 ];
 
 const projects = [
+    {
+        name: "Social Media Platform",
+        description:
+            " It is a Social Media Platform where people can like, post and manage their friends. It uses NodeJS for REST API’s, ReactJS library for frontend and MongoDB database.",
+        tags: [
+            {
+                name: "nodejs",
+                color: "green-text-gradient",
+            },
+            {
+                name: "reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "mongodb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "materialUi",
+                color: "pink-text-gradient",
+            }
+        ],
+        image: socialmedia,
+        source_code_links: [
+            "https://github.com/KhilariDivya23/SocialMedia-Frontend",
+            "https://github.com/KhilariDivya23/SocialMedia-Backend"
+        ],
+        live_link: ""
+    },
     {
         name: "Transport Management System",
         description:
@@ -149,7 +227,9 @@ const projects = [
             }
         ],
         image: transport,
-        source_code_link: "https://github.com/CryptCoders/amar-transport-frontend",
+        source_code_links: [
+            "https://github.com/CryptCoders/amar-transport-frontend",
+        ],
         live_link: ""
     },
     {
@@ -171,7 +251,9 @@ const projects = [
             },
         ],
         image: memoryGame,
-        source_code_link: "https://github.com/KhilariDivya23/Memory_Game",
+        source_code_links: [
+            "https://github.com/KhilariDivya23/Memory_Game",
+        ],
         live_link: "https://khilaridivya23.github.io/Memory_Game/"
     },
     {
@@ -193,7 +275,9 @@ const projects = [
             },
         ],
         image: tourAndTravel,
-        source_code_link: "https://github.com/KhilariDivya23/Tour_And_Travel",
+        source_code_links: [
+            "https://github.com/KhilariDivya23/Tour_And_Travel",
+        ],
         live_link: "https://khilaridivya23.github.io/Tour_And_Travel/"
     }
 ];

@@ -45,7 +45,7 @@ const About = () => {
                 variants={ fadeIn("", "", 0.1, 1) }
                 className="mt-4 text-secondary text-[17px] leading-[30px] text-justify"
             >
-                I'm a final-year engineering enthusiast from Mumbai University set to graduate in 2024. My true passion lies in coding and creative problem-solving, which has led me to embark on an exhilarating journey into competitive programming and mastering the intricacies of Data Structures and Algorithms. Alongside, I'm diligently honing my skills in the dynamic MERN stack, eager to craft innovative projects. With an unwavering drive to excel and a penchant for exciting challenges, I'm poised to make a significant impact in the world of technology.
+                I am a Computer Engineering graduate from the University of Mumbai, currently working as an Application Engineer at Flipkart. With a strong foundation in development and a passion for problem-solving, I am dedicated to enhancing my skills and knowledge in software engineering.
             </motion.p>
             
             <div className="mt-20 flex flex-wrap gap-10">
